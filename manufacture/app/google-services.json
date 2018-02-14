@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "696266324606",
+    "firebase_url": "https://manufacture-744d6.firebaseio.com",
+    "project_id": "manufacture-744d6",
+    "storage_bucket": "manufacture-744d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696266324606:android:cd443a4ec7bdedb3",
+        "android_client_info": {
+          "package_name": "com.example.ekowibowo.hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696266324606-1pdcpbj1iebnrrljrbcua935sqglnmet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ekowibowo.hospital",
+            "certificate_hash": "7293fc9a84844325633e007532a520b98d750405"
+          }
+        },
+        {
+          "client_id": "696266324606-49ra5sn2qfteklsjl5oa32pumbfhfinr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5u2KfRI8FPG2SxPIqlj7b9Nc3pn6Zl-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696266324606-49ra5sn2qfteklsjl5oa32pumbfhfinr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

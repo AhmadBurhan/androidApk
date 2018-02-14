@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekowibowo.manufactur">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.ekowibowo.manufactur.splas"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ekowibowo.manufactur.MainActivity"
+            android:label="Menu Utama"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.master_QC"
+            android:label="Input QC"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.master_Produksi"
+            android:label="Input Produksi"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.master_Karyawan"
+            android:label="Input Karyawan"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.master_Warehouse"
+            android:label="Input Warehouse"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_QC"
+            android:label="Data QC"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_detail_QC"
+            android:label="Data QC"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_Produksi"
+            android:label="Data Produksi"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_detail_Produksi"
+            android:label="Data Produksi"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_Karyawan"
+            android:label="Data Karyawan"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_detail_Karyawan"
+            android:label="Data Karyawan"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_Warehouse"
+            android:label="Data Warehouse"/>
+        <activity
+            android:name="com.example.ekowibowo.manufactur.daftar_detail_Warehouse"
+            android:label="Data Warehouse">
+        </activity>
+    </application>
+
+</manifest>

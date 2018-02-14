@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">manufacture</string>
+    <string-array name="manufacture">
+        <item>MASTER QUALITY CONTROL </item>
+        <item>MASTER PRODUKSI</item>
+        <item>MASTER KARYAWAN</item>
+        <item>MASTER WAREHOUSE</item>
+
+    </string-array>
+</resources>
